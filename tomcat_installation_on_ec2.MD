@@ -76,21 +76,21 @@ Access tomcat application from browser on port 8090
       $ sudo find / -name context.xml
   ```
     > After run this command you get below output 
-      ```sh
+```sh
           /opt/tomcat/conf/context.xml
           /opt/tomcat/webapps/manager/META-INF/context.xml
           /opt/tomcat/webapps/examples/META-INF/context.xml
           /opt/tomcat/webapps/host-manager/META-INF/context.xml
           /opt/tomcat/webapps/docs/META-INF/context.xml
-      ```
-     ```sh
+```
+```sh
         /opt/tomcat/webapps/host-manager/META-INF/context.xml
        /opt/tomcat/webapps/manager/META-INF/context.xml
 
         # Restart tomcat services
      $ tomcatdown  
      $ tomcatup
-     ```
+ ```
 7. Update users information in the tomcat-users.xml file goto tomcat home directory and Add below users to conf/tomcat-users.xml file
 
   ```sh
